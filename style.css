@@ -1,0 +1,12 @@
+*{
+    .tag-content-wrapper {
+        pointer-events: none;
+    }
+
+    .tag-canvas>canvas {
+        position: relative;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+    }
+}
